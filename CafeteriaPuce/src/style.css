@@ -36,3 +36,67 @@ body{
   text-align: center;
   
 }
+
+.logo{
+  color: #5E0006;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-bar > a {
+  color: #5E0006;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.nav-bar > a:hover{
+  color: #F0FFDF;
+}
+
+.contenedor-principal{
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.Tarjeta{
+  background-color: #D2DCB6;
+  padding: 25px;
+  width: 400px;
+  border-radius: 55px;
+  height: 175px ;
+  box-shadow: 0 4px 20px #D2DCB6;
+}
+
+.Tarjeta:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px #BBC863 ;
+}
+
+.Tarjeta h2{
+  margin-bottom: 15px;
+  color: #000000 ;
+  text-align: center;
+}
+
+.Tarjeta p{
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.boton-tarjeta{
+  padding: 5px 10px;
+  border: none;
+  background-color: #F0FFDF;
+  color: black ;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.boton-tarjeta:hover{
+  background-color: white;
+}
